@@ -101,4 +101,16 @@ footer * {
     .split {
         flex-direction: column;
     }
+
+    #infosection {
+        padding: 8%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #instasection {
+        padding: 8%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
   }
