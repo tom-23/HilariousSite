@@ -16,6 +16,10 @@ body {
     color: #EA5B56;
 }
 
+h2 {
+    font-weight: 500;
+}
+
 .split {
     display: flex;
     flex-direction: row;
@@ -62,6 +66,8 @@ body {
 #platforms li {
     margin-bottom: 10px;
 }
+
+
 
 ul {
     list-style: none;
