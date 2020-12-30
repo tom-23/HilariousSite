@@ -19,6 +19,8 @@
 
         gtag('config', 'G-CJCQ3P0XJX');
     </script>
+
+
     <title>H!LARIOUS</title>
 </head>
 
@@ -63,8 +65,30 @@
             <p>We aim to get back to as many emails as possible. Please be patient in the meantime.</p>
             <p>Mobile - <a href="tel:+447578442488">07578 442488</a></p>
         </section>
+        <section id="instasection">
+            <div id="instagram-feed2"></div>
+            <script src="static/javascript/InstagramFeed.js"></script>
+            <script>
+                (function () {
+                    new InstagramFeed({
+                        'username': 'thehilariouspodcast',
+                        'container': document.getElementById("instagram-feed2"),
+                        'display_profile': false,
+                        'display_biography': false,
+                        'display_gallery': true,
+                        'display_captions': false,
+                        'callback': null,
+                        'styling': true,
+                        'items': 12,
+                        'items_per_row': 4,
+                        'margin': 1
+                    });
+                })();
+            </script>
+        </section>
         <footer>
             <p>Copyright © 2020/2021 - Tom Butcher, Danielle Badcock, Izzy Cavanagh and Maddy Shaw</p>
+            <p>Site design by Tom Butcher</p>
         </footer>
     </div>
 
