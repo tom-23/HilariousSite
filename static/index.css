@@ -60,6 +60,10 @@ h2 {
     padding-bottom: 50px;
 }
 
+#spotify * {
+    color: #EA5B56 !important;
+}
+
 #socials li {
     margin-bottom: 10px;
 }
