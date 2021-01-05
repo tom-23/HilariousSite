@@ -25,6 +25,19 @@ h2 {
     flex-direction: row;
 }
 
+.button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    color: #FFFFA7;
+    background-color: #EA5B56;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor:crosshair;
+    width: fit-content;
+}
+
 #content {
     width: 100vw;
     display: flex;
@@ -55,13 +68,34 @@ h2 {
     width: 100%;
 }
 
+#shopsection {
+    padding: 15%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #FFFFA7;
+    background-color: #EA5B56;
+}
 #instasection {
     padding: 15%;
     padding-top: 50px;
     padding-bottom: 50px;
     
-    background-color: #EA5B56;
+    background-color: #FFFFA7;
 }
+
+.shopitem {
+    padding: 10px;
+}
+.shopitem img {
+    width: 100%
+}
+
+.shopitem .button {
+    background-color: #FFFFA7;
+    color: #EA5B56;
+}
+
+
 
 #spotify {
     padding-top: 50px;
